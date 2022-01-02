@@ -28,6 +28,8 @@
             @endif
         </div>
 
+        <h1 class="text-primary-100">teste</h1>
+
         <div class="flex items-center justify-center">
             <div class="flex flex-col justify-around">
                 <div class="space-y-6">
