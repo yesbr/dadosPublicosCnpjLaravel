@@ -21,11 +21,11 @@ return new class extends Migration
             $table->string('identificador');
             $table->string('nome_fantasia');
             $table->string('situacao_cadastral');
-            $table->string('situacao_cadastral_data');
+            $table->date('situacao_cadastral_data');
             $table->string('situacao_cadastral_motivo');
             $table->string('cidade_exterior');
             $table->string('pais');
-            $table->string('inicio_atividade');
+            $table->date('inicio_atividade');
             $table->string('cnae_principal');
             $table->text('cnae_secundario');
             $table->string('logradouro_tipo');
@@ -44,7 +44,7 @@ return new class extends Migration
             $table->string('fax');
             $table->string('email');
             $table->string('situacao_especial');
-            $table->string('situacao_especial_data');
+            $table->date('situacao_especial_data');
             $table->timestamps();
         });
     }
