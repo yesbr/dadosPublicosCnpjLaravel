@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('empresas', function (Blueprint $table) {
             $table->id();
             $table->string('cnpj');
-            $table->string('razao_social');
+            $table->integer('razao_social', false)->index()->zerofill();
             $table->string('natureza_juridica');
             $table->string('qualificacao_responsavel');
             $table->string('capital_social');

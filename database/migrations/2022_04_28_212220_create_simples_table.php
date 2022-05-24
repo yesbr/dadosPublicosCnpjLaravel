@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('cnpj');
             $table->string('opcao_simples');
             $table->date('opcao_simples_data');
-            $table->string('exclusao_simples');
+            $table->date('exclusao_simples');
             $table->string('opcao_mei');
             $table->date('opcao_mei_data');
             $table->string('exclusao_mei');

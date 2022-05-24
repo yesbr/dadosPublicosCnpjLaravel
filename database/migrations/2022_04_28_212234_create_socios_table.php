@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('socio_nome');
             $table->string('socio_cpf');
             $table->string('socio_qualificacao');
-            $table->string('entrada_sociedade_data');
+            $table->date('entrada_sociedade_data');
             $table->string('pais');
             $table->string('representante_legal');
             $table->string('representante_legal_nome');
